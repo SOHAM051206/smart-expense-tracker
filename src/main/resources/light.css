@@ -1,0 +1,81 @@
+.root {
+    -fx-background-color: #f5f7fa;
+    -fx-font-family: "Segoe UI";
+}
+
+/* ---------- LABELS ---------- */
+.label {
+    -fx-text-fill: #1f2937;
+    -fx-font-size: 14px;
+}
+
+/* ---------- BUTTONS ---------- */
+.button {
+    -fx-background-color: #2563eb;
+    -fx-text-fill: white;
+    -fx-background-radius: 12;
+    -fx-border-radius: 12;
+    -fx-padding: 8 18 8 18;
+    -fx-font-weight: bold;
+}
+
+.button:hover {
+    -fx-background-color: #1d4ed8;
+}
+
+/* ---------- INPUT FIELDS ---------- */
+.text-field,
+.combo-box,
+.date-picker {
+    -fx-background-color: white;
+    -fx-background-radius: 12;
+    -fx-border-radius: 12;
+    -fx-border-color: #d1d5db;
+    -fx-padding: 6 10 6 10;
+}
+
+.text-field:focused,
+.combo-box:focused,
+.date-picker:focused {
+    -fx-border-color: #2563eb;
+    -fx-border-width: 2;
+}
+
+/* ---------- TABLE ---------- */
+.table-view {
+    -fx-background-color: white;
+    -fx-background-radius: 16;
+    -fx-border-radius: 16;
+    -fx-border-color: #e5e7eb;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #e5e7eb;
+    -fx-background-radius: 16 16 0 0;
+}
+
+.table-view .column-header .label {
+    -fx-text-fill: #111827;
+    -fx-font-weight: bold;
+}
+
+.table-row-cell {
+    -fx-background-color: white;
+}
+
+.table-row-cell:filled:odd {
+    -fx-background-color: #f9fafb;
+}
+
+.table-row-cell:filled:selected {
+    -fx-background-color: #2563eb;
+}
+
+.table-row-cell:filled:selected .table-cell {
+    -fx-text-fill: white;
+}
+
+/* ---------- COMBO POPUP ---------- */
+.combo-box-popup .list-view {
+    -fx-background-radius: 12;
+}
